@@ -1,6 +1,9 @@
-# aws-lambda-elasticsearch
-*Lambda function that ships plain json logs to elasticsearch
+# AWS CWL-Lambda-ElasticSearch
 
-Basically this lambda takes base64 encoded logs from Cloudwatch or Kinesis stream, decodes and post to ES.
+## Lambda function that ships plain json logs to elasticsearch
 
-Most implementation is takesn from AWS help.
+Basically the lambda receives base64 encoded logs directly from Cloudwatch or Kinesis, decodes and post bulk to ES.
+
+Most implementation is taken from AWS doc.
+
+Travis Build: https://travis-ci.org/joykabir/aws-lambda-elasticsearch.svg?branch=master
