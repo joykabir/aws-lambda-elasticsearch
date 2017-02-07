@@ -3,7 +3,7 @@ var https = require('https');
 var zlib = require('zlib');
 var crypto = require('crypto');
 
-var endpoint = 'your es domain url';
+var endpoint = '<Place your ElasticSearch end-point>';
 
 exports.handler = function(input, context) {
     // decode input from base64
